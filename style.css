@@ -11,6 +11,7 @@ html,body{
 .nav-opened{
     overflow: hidden;
 }
+
 /*  ======
     HEADER
     ======*/
@@ -22,6 +23,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 /* NAVBAR */
 .navbar{
     position: absolute;
@@ -64,20 +66,20 @@ header{
     text-align: left;
     font-size: 2rem;
 }
+
 .list-item{
     line-height: 4rem;
 }
+
 .list-item a{
     font-weight: lighter;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
+
 li{
     position: relative;
-}
-li::before{
-
 }
 
 /* HAMBURGER ICON*/
@@ -147,17 +149,20 @@ li::before{
 /*  ====
     MAIN
     ====*/
+
 main{
     width: 90%;
     margin: auto;
     text-align: center;
 }
+
 h2{
     font-family:'Josefin Sans', sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 300;
 }
+
 h3{
     font-family:'Josefin Sans', sans-serif;
     font-size: 1.3rem;
@@ -170,27 +175,34 @@ h3{
     z-index: 2;
     position: absolute;
 }
+
 p{
     line-height: 1.8rem;
     color: hsl(0, 0%, 41%);
 }
+
 .first-section{
     margin-top: 5rem;
 }
+
 .mobile{
     display: block;
     width: 100%;
 }
+
 .desktop{
     display: none;
 }
+
 .second-section{
     display: flex;
     flex-direction: column;
 }
+
 .second-section h2{
     margin-top: 4rem;
 }
+
 .see-all-btn{
     position: relative;
     width: 50%;
@@ -205,10 +217,12 @@ p{
     font-family: 'Alata', sans-serif;
     cursor: pointer;
 }
+
 .see-all-btn:hover{
     color: white;
     z-index: 2;
 }
+
 .see-all-btn::before{
     content: '';
     position: absolute;
@@ -221,9 +235,11 @@ p{
     transition: transform 0.5s ease-in-out;
     z-index: -1;
 }
+
 .see-all-btn:hover::before{
     transform: scale(1);
 }
+
 .card{
     position: relative;
     margin-top: 2rem;
@@ -231,6 +247,7 @@ p{
     display: flex;
     align-items: flex-end;
 }
+
 .card::before{
     content: '';
     position: absolute;
@@ -240,17 +257,21 @@ p{
     left: 0;
     background:linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(255,255,255,0) 69%);
 }
+
 .card:hover::before{
     display: none;
 }
+
 .card:hover h3{
     color: black;
     z-index: 3;
 }
+
 .bg{
     width: 100%;
     height: 100%;
 }
+
 .bg:hover{
     opacity: 0.4;
 }
@@ -284,29 +305,36 @@ p{
 /*  ======
     FOOTER
     ====== */
+
 footer{
     margin-top: 5rem;
     background-color: black;
     text-align: center;
     padding: 3rem 0;
 }
+
 .footer-list ul{
     padding: 0;
 }
+
 .footer-list li{
     margin-top: 1.5rem;
 }
+
 .footer-list a{
     font-size: 1.2rem;
     text-decoration: none;
     color: white;
 }
+
 .footer-socials p{
     font-size: 1.2rem;
 }
+
 .socials{
     margin-top: 4rem;
 }
+
 .socials a{
     padding: 0 0.5rem;
 }
