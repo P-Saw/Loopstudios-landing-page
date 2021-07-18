@@ -218,28 +218,6 @@ p{
     cursor: pointer;
 }
 
-.see-all-btn:hover{
-    color: white;
-    z-index: 2;
-}
-
-.see-all-btn::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-    transform: scale(0);
-    transition: transform 0.5s ease-in-out;
-    z-index: -1;
-}
-
-.see-all-btn:hover::before{
-    transform: scale(1);
-}
-
 .card{
     position: relative;
     margin-top: 2rem;
@@ -463,6 +441,27 @@ footer{
         width: 20%;
         order: unset;
         margin: 0;
+    }
+    .see-all-btn:hover{
+        color: white;
+        z-index: 2;
+    }
+    
+    .see-all-btn::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: black;
+        transform: scale(0);
+        transition: transform 0.5s ease-in-out;
+        z-index: -1;
+    }
+    
+    .see-all-btn:hover::before{
+        transform: scale(1);
     }
     .cards-container{
         flex: 1 0 100%;
